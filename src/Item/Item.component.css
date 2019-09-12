@@ -1,0 +1,28 @@
+.Item {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border: solid 1px aliceblue;
+    border-radius: 10px;
+    margin: 10px 15px 10px 10px;
+    transition: background-color 1s;
+
+}
+
+.Title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: darkgray;
+}
+
+.isChecked {
+    background-color: white;
+    box-shadow: #ffffff3b 3px 3px;
+    transition: background-color 1s;
+}
+
+.isChecked  .Title {
+    color: black;
+}
